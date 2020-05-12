@@ -1,0 +1,15 @@
+#!/usr/bin/perl
+use strict;
+my @han = qw(extended precompiled disassembled para agressive paki horny kingsize bloody cVs assembled tele hAx0RiNg scriptkiddy rude Mercyless s0NiC frame wet xtrem main world-wide dumped big little phired phaTT YoYo daMNed cyber pa1n phUzzY Sail0r flashing zer0 ultra micro defendor d3sCent fr3sh N1CK psycho X dj mc d3LaY captain LaZZie instant MadDam Mc Smoke e- Style Evil Ghett0 Doctor MaNGa bambam  Supra Commander w33d konkret pr0f3ss0r C0de magic m0nkey Ultra P0rn Chrome Knight Flame Eternal MiGHtY Crash Burn Leet Da Acid Lord Overlord King Sub Illegal Phreak Phony Cowboy Samurai Ninja);
+push(@han, "Master of"); push(@han, "Prince of"); push(@han, "Friend of"); push(@han, "son of");
+my @dle = qw(knowledge attacks z0r0 Guru pointer zero pRiEsT chillA God websiterz Xploison dUde k33n ultraLARGE d00d00 terror child --force iNterRUpt Login pULZ L0LiTa KiTTie logic vIrUZ afterburner mAlloc m00n r00t EaT3R makeR b0rg Fate 2000 overfl0w L0V3 Phreak Ir0n r0b0t ME$$engeR outcast d3LiGHt heroe Godzilla PacMan Bomberman LightBringA sucker ch3ckA ManTa waster runner burner AntiChrist mushroom r00lah gANGSTA mASTA m0tha mutant Elite Hate Soldier Hax0r Flash Demon Crack Hell girl Satan Dog Wolf Junkie Wizard p0rnK1ng Grrrrl Overburn Killer Pirate Flash Overclock Nightmare Doom Confusion Destruction Cool);
+my @cr = qw(drupp dead stoned connected alied bumm-bumm paran0ia global phive uSCHi brAIn druppie Dope XtC naked illuminated ultraelite leit neo neon post drAg0n rotten brute imperial integrated dark black evil monsta pilla ill skill);
+push(@cr, "House of"); push(@cr, "Sisters of"); push (@cr, "Kingz oF");
+my @ew = qw(Gang boyZ breaKaZ kaoz circuit war y-o-y Maztaz b0x BBS beaters mzs ck3ckAz PhRiEnTZ puzzyzz cR3W clan KLaN m0vement flashaz sackaz smokerz raZ3 chiQuaZ rAg3 house crackaz kultur .com hax0rs rulers robotz Tr00p aRmY forcerz bAllZ nationz lutschaz genesis evangelion kingz controllerz opressors punishers fighters);
+push(@ew, "peer group");
+my @az = qw(xx><xx -=- oOo <-- [- ... :: ~v^v~ .:=:. /* -{ " =<= <crew> <<<  -'\/);
+my @ci = qw(xx><xx -=- oOo --> -] ... :: ~v^v~ .:=:. */ }- " =>= </crew> >>> \/`-);
+my $rnd1 = int(rand($#han))+1; my $rnd2 = int(rand($#dle))+1; my $rnd3 = int(rand($#cr))+1; 
+my $rnd4 = int(rand($#ew))+1; my $rnd5 = int(rand($#az))+1;
+print "Welcome HaX0r!\n";
+print "Your new handle is: [32m$han[$rnd1] [36m[33m$dle[$rnd2] [0m from da [36m$az[$rnd5] $cr[$rnd3] [31m$ew[$rnd4] $ci[$rnd5][0m \n";
