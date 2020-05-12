@@ -1,2 +1,2 @@
-# c4_hacker_handle
-Hacker-Handle Generator
+# c4_nickname
+Handle Generator
